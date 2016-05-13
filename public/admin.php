@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Content Managment System</title>
-	<link rel="stylesheet" type="text/css" href="stylesheets/public.css">
-</head>
-<body>
-  <div id="header">
-  	<h1>Qazi_Tech</h1>
-  </div>
+<?php  require_once("../includes/functions.php"); ?>
+<?php include("../includes/layout/header.php"); ?>
   <div id="main">
   	<div id="navigation">
   		&nbsp;
@@ -22,6 +14,4 @@
   		</ul>
   	</div>
   </div>
-  <div id="footer">copyright 20xx, Qazi_Tech</div>
-</body>
-</html>
+<?php include("../includes/layout/footer.php"); ?>
